@@ -2,13 +2,11 @@
 
 # Aula 07: Funções em Python e Estrutura de Dados - Parte 1
 
-![imagem_01](./pic/1.jpg)
 
 As funções em Python são uma das estruturas fundamentais da linguagem, permitindo a reutilização de código, a organização e a modularidade dos programas. Este guia aborda desde a motivação até a aplicação prática de funções, incluindo keywords, nomes, e como utilizá-las efetivamente.
 
 ## Conteúdo
 
-![imagem_02](./pic/2.jpg)
 
 ### Motivação
 
@@ -124,7 +122,6 @@ def encontrar_valores_ausentes(sequencia: List[int]) -> List[int]:
     return list(completo - set(sequencia))
 ```
 
-![imagem_03](./pic/3.jpg)
 
 Desafio: Análise de Vendas de Produtos
 Objetivo: Dado um arquivo CSV contendo dados de vendas de produtos, o desafio consiste em ler os dados, processá-los em um dicionário para análise e, por fim, calcular e reportar as vendas totais por categoria de produto.
@@ -163,5 +160,3 @@ graph TD;
     * Função: `calcular_vendas_categoria`
     * Entrada: Dicionário processado
     * Saída: Dicionário com total de vendas por categoria
-
-![imagem_04](./pic/4.jpg)
